@@ -84,7 +84,6 @@
     </requires>
     <requires type="editable">
       <file>papers.bib</file>
-      <file>paper.bib</file>
     </requires>
   </external>
 </requests>
