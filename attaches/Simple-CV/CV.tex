@@ -1,0 +1,52 @@
+%----------------------------------------------------------%
+%  https://github.com/dcetin/Simple-CV  %
+%----------------------------------------------------------%
+
+\documentclass[letterpaper,11pt]{article}
+
+% Choose bibliography style for formatting list of publications
+\usepackage[style=ieee,url=false,doi=false,maxbibnames=99,sorting=ydnt]{biblatex}
+\bibliography{papers}
+
+
+% Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
+\def\theme{MidnightBlue}
+
+% More predefined colors can be found in 
+% https://en.wikibooks.org/wiki/LaTeX/Colors
+
+\usepackage{simplecv}
+
+\boldname{Surname}{Name}{N.}
+
+\begin{document}
+
+% Heading
+%\headingphoto{Weijiang Hong}{
+\headinginline{Weijiang Hong}{
+    Website: \website{wj-hong.github.io} \\ 
+    % LinkedIn: \linkedin{doruk-cetin} \\
+    GitHub: \github{WJ-Hong} \\
+    Email: \email{hongweijiang17@nudt.edu.cn}
+}%{photo.png}
+
+
+% Page One
+\input{sections/sec1-research.tex}
+\input{sections/sec2-education.tex}
+\input{sections/sec3-awards.tex}
+\sidebyside
+    {\input{sections/sec4-skills.tex}}
+    {\input{sections/sec5-languages.tex}}
+\input{sections/sec6-publications.tex}
+%\input{sections/sec7-tools.tex}
+
+%\pagebreak
+
+% Page Two
+%\input{sections/experience.tex}
+%\input{sections/teaching.tex}
+%\input{sections/projects.tex}
+%\input{sections/volunteering.tex}
+
+\end{document}
