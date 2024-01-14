@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.2.21)  21 DEC 2023 23:02
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.2.21)  31 DEC 2023 08:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -753,11 +753,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 )
 (./sections/sec3-awards.tex
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 29.
+(Font)              <7> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 29.
+(Font)              <5> on input line 31.
 ) (./sections/sec4-skills.tex)
 (./sections/sec5-languages.tex) (./sections/sec6-publications.tex [1
 
